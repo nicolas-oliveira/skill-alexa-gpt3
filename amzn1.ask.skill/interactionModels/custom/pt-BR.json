@@ -1,0 +1,45 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "modo conversa",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "sair",
+            "desligar",
+            "parar",
+            "pare"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "ConversationModeIntent",
+          "slots": [],
+          "samples": [
+            "Você",
+            "Pode",
+            "Posso",
+            "Como",
+            "Onde",
+            "Quando",
+            "Porque"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "5"
+}
